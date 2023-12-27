@@ -7,5 +7,14 @@ public class QueueTest {
         queue.enqueue(70);
 
         queue.display();
+
+        queue.dequeue();
+        queue.display();
+
+        queue.dequeue();
+        queue.display();
+
+        queue.dequeue();
+        queue.display();
     }
 }

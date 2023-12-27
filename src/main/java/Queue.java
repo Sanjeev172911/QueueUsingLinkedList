@@ -43,11 +43,13 @@ public class Queue <T>{
     }
 
     public void display(){
+        if(isEmpty()) System.out.println("Queue is empty.");
         Node<T>temp=head;
         while(temp!=null){
             System.out.print(temp.data+" ");
             temp=temp.next;
         }
+        System.out.println();
     }
 
 
